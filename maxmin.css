@@ -1,0 +1,18 @@
+/*laptop*/
+/*@media screen and (max-width:700px) {
+    body{
+        background-color: deepskyblue;
+    }
+}*/
+
+/*@media screen and (min-width:400px){
+    body{
+        background-color: bisque;
+    }
+}*/
+
+@media screen and (min-width:200px) and (max-width:400px) {
+    body{
+        background-color: crimson;
+    }
+}

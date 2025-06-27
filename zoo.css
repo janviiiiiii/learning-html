@@ -1,0 +1,123 @@
+#navbar{
+    display: flex;
+    background-color: rgb(103, 189, 103);
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+           border: 2px solid rgb(10, 54, 10);
+
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+
+}
+#navbar button{
+    border-radius: 50px;
+    background-color: rgb(18, 72, 18);
+    width: 80px;
+    border: 2px solid rgb(3, 46, 3);
+}
+
+#home{
+    height: fit-content;
+    background-color: rgb(178, 227, 105);
+    display: flex;
+     margin-top: 20px;
+            border-top: 2px solid rgb(10, 54, 10);
+
+
+}
+#home div{
+  
+    height: 400px;
+    
+    
+}
+.hello{
+    font-size: 80px;
+    align-items: center;
+    justify-content: center;
+     padding-left: 100px;
+}
+.hello2{
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 100px;
+}
+.image{
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+.icon{
+    justify-content: space-evenly;
+    padding-left: 60px;
+    gap: 100px;
+}
+#about{
+    display: flex;
+    background-color: rgb(178, 227, 105);
+    margin-top: 20px;
+    align-items: center;
+       font: 100px;
+       border-top: 2px solid rgb(10, 54, 10);
+
+}
+.about1{
+      font-size: 30px;
+    padding-right: 50px;
+    padding-left: 100px;
+}
+ .hyy{
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    border-bottom: 5px double rgb(9, 39, 9);
+    margin-right: 500px;
+
+}
+#about button{
+      border-radius: 50px;
+    background-color: rgb(18, 72, 18);
+  
+    border: 2px solid rgb(3, 46, 3);
+}
+
+#services{
+     display: flex;
+    background-color: rgb(178, 227, 105);
+    margin-top: 20px;
+    align-items: center;
+       font: 100px;
+       border-top: 2px solid rgb(10, 54, 10);
+       height: 400px;
+       gap: 40px;
+       justify-content: center;
+}
+#services div{
+    justify-content: center;
+     display: flex;
+    background-color: rgb(148, 203, 92);
+    border-radius: 30px;
+    border: 1px solid rgb(18, 199, 57);
+    height: 200px;
+    width: 300px;
+}
+
+.opt{
+    font: bold;
+    align-items: center;
+}
+.hEE{
+font-size: 50px;
+
+    
+    border-bottom: 5px double rgb(9, 39, 9);
+    margin-top: 40px;
+    align-items: center;
+margin-left: 30px;
+}

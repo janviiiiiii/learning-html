@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Janvi Atutkar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #298845;
+            color: #333;
+        }
+        header, footer, section {
+            padding: 40px 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .hero {
+            background: #d1fae5;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            color: #10b981;
+        }
+        .hero img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        .about, .services, .portfolio, .contact, .blog {
+            background: white;
+            margin: 20px auto;
+            max-width: 1100px;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+        .section-title {
+            color: #10b981;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .services-grid, .portfolio-grid, .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #f9fafb;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            background: #10b981;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h2>Gorib</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Blog</a></li>
+        </ul>
+        <a href="#" style="background:#10b981;padding:10px 20px;border-radius:8px;color:white;text-decoration:none;">Hire Me</a>
+    </nav>
+
+    <section class="hero">
+        <img src="girl.png" alt="Profile Photo">
+        <h1>I'M JANVI ATUTKAR</h1>
+        <p>Professional web designer & UI/UX expert</p>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="section-title">ABOUT ME</h2>
+        <p>I'm JANVI ATUTKAR - a UI/UX designer and web developer with 5+ years of experience...</p>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="section-title">MY SERVICES</h2>
+        <div class="services-grid">
+            <div class="card">Web Design</div>
+            <div class="card">Graphic Design</div>
+            <div class="card">UI/UX Design</div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="section-title">MY PORTFOLIO</h2>
+        <div class="portfolio-grid">
+            <div class="card">Web Design</div>
+            <div class="card">App Design</div>
+            <div class="card">Logo Design</div>
+            <div class="card">UI Design</div>
+            <div class="card">Graphic Design</div>
+            <div class="card">Game Design</div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">CONTACT ME</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea rows="5" placeholder="Message..."></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="blog" id="blog">
+        <h2 class="section-title">BLOG US</h2>
+        <div class="blog-grid">
+            <div class="card">Videography Experience</div>
+            <div class="card">Web Redesign</div>
+            <div class="card">Graphic Experience</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright 2020 by Gorib</p>
+    </footer>
+
+</body>
+</html>
